@@ -5,7 +5,7 @@ cargo run -r
 ```
 
 # How this works:
-```
+
 Every node in the Monero P2P network has a self-assigned 64-bit identifier called a peer_id. This peer_id is 
 randomly generated at startup and stays static until the node is shutdown[^1].
 
@@ -41,4 +41,4 @@ reasons for an entity to run proxy nodes.
 
 [^1]: In privacy network zones (Tor, i2p) every peer sets the same peer_id of 1.
 
-```
+
